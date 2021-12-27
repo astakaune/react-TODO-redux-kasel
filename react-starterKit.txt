@@ -61,7 +61,10 @@ https://reactjs.org/docs/create-a-new-react-app.html
 			};
 			// Initialize Firebase
 			const app = initializeApp(firebaseConfig);
-	
+			
+11) 	npm install react-redux
+		npm install redux
+		npm i reactstrap
 
 		
 
