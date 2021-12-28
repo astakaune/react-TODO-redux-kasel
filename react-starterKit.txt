@@ -72,7 +72,9 @@ https://reactjs.org/docs/create-a-new-react-app.html
 
 13) hostingas + ftp prisijungimai + ikeliami failai i serveri
 
-14) 
+14) heroku https://dashboard.heroku.com/apps/todobitapp/deploy/github
+deployment method GitHub / app connect to GitHub -> connect / display automatic deploys / deploy branch / view
+//duoda subdomena su sukurta svetaine - galimam kazkam siusti perziurai
 
 
 Build/ Firestore database/test mode/ eur3 (europe-west) / enable
