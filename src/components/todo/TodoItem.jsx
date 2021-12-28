@@ -17,6 +17,13 @@ const TodoItem = ({ todo, remove, mark }) => (
 					)}
 				</span>
 				<UncontrolledCollapse toggler={`#toggler${todo.id}`}>{todo.description}</UncontrolledCollapse>
+				<div className="col-md-5">
+                <div className="ml-auto">
+                    <Button variant="outline-danger" onClick={() => remove(todo.id)} style={{marginRight:'10px'}} className="ml-auto">Remove</Button>
+                    
+					<Button variant="outline-success" onClick={() => mark(todo.id)} className="mr-auto">End</Button>
+                </div>
+            </div>
 			</div>
 		</div>
 	</ListGroupItem>

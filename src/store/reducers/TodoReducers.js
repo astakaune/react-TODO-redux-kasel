@@ -5,14 +5,14 @@ const init = {
 		//1 task. Keys:
 		{
 			title: "Test1",
-			description: "Very good task1",
+			description: "Test task1",
 			isComplete: false,
 			id: 1234567,
 		},
 		//2 task. Keys:
 		{
 			title: "Test2",
-			description: "Very good task2",
+			description: "Test task2",
 			isComplete: true,
 			id: 1234568,
 		},
